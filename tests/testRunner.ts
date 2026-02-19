@@ -3,7 +3,7 @@ import { test, expect, Page } from "@playwright/test";
 import { faker } from "@faker-js/faker";
 import { RegistrationPage } from "../pages/Registration.ts";
 import { UserModel } from "../userModel/person.model.ts";
-import { generateRandomNumber,saveJSONData } from "../utils/Utils";
+import { generateRandomNumber,saveJSONData,getLatestUser } from "../utils/Utils";
 
 
 
@@ -35,6 +35,13 @@ test.describe.serial("Registration", async () => {
 
         saveJSONData(person, "./resources/userData.json");
  
+    })
+
+
+    test("Login", async () =>{
+        const loginpage= new loginpage(page)
+        const userData=getLatestUser("./resources/users.json")
+        await loginpage.login(userData.email,userData.password)
 
     })
 
