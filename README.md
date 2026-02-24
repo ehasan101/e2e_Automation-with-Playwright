@@ -4,7 +4,7 @@ This is an end-to-end automation testing framework built with **Playwright** and
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This automation framework is designed to test user authentication workflows including:
 - **User Registration**: Create new user accounts with auto-generated test data
@@ -19,7 +19,7 @@ The framework follows industry best practices with:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Version | Purpose |
 |---|---|---|
@@ -31,7 +31,7 @@ The framework follows industry best practices with:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -57,7 +57,7 @@ The framework follows industry best practices with:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 The `playwright.config.ts` file contains the following configurations:
 
@@ -79,7 +79,7 @@ The `playwright.config.ts` file contains the following configurations:
 
 ---
 
-## 🚀 Running Tests
+## Running Tests
 
 ### Run All Tests
 ```bash
@@ -113,7 +113,7 @@ npx playwright show-report
 
 
 
-## ✨ Project Features
+## Project Features
 1. **Page Object Model (POM)**
 2. **Test Data Management**
 3. **User Model & Types**
@@ -122,7 +122,7 @@ npx playwright show-report
 
 
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Tests Not Running
 - Ensure all dependencies are installed: `npm install`
@@ -142,7 +142,7 @@ npx playwright show-report
 
 ---
 
-## 📚 Best Practices
+## Best Practices
 
 1. **Use Page Objects**: Encapsulate page interactions in Page classes
 2. **Generate Dynamic Data**: Use Faker.js for realistic test data
@@ -152,7 +152,7 @@ npx playwright show-report
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to extend this framework with:
 - Additional test scenarios
@@ -163,7 +163,7 @@ Feel free to extend this framework with:
 ---
 
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions, please review the [Playwright Documentation](https://playwright.dev) or check the project configuration files.
 
